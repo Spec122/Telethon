@@ -328,7 +328,7 @@ class TelegramBaseClient(abc.ABC):
                 app_version=app_version or self.__version__,
                 lang_code=lang_code,
                 system_lang_code=system_lang_code,
-                lang_pack='',  # "langPacks are for official apps only"
+                lang_pack='android',  # "langPacks are for official apps only"
                 query=x,
                 proxy=init_proxy
             )
